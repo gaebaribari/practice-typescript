@@ -4,5 +4,5 @@ export default function Coin() {
    <div>
     Coin
    </div>
-  );
+  )
 }

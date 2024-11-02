@@ -1,28 +1,29 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { createGlobalStyle } from "styled-components";
-import Root from "./routes/Root";
-import Coins from "./routes/Coins";
-import Coin from "./routes/Coin";
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Root />,
-      children: [
-        {  
-          index: true,
-          element: <Coins />,
-        },
-        {
-          path: '/:coinId',
-          element: <Coin/>,
-        },
-      ]
-    },
-  
-  
-  ]);
+const Wrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
+const Box = styled(motion.div)`
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
+`;
 export default function App() {
-  return <RouterProvider router={router} />;
+  return (<Wrapper>
+    <Box
+      transition={{ delay: 3, type: 'spring' }}
+      initial={{ scale: 0 }}
+      animate={{ scale:1, rotateZ: 360 }} 
+    />
+    <motion.div></motion.div>
+  </Wrapper>
+  );
 }
