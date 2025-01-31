@@ -1,0 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* 밑에거랑 차이점 뭔지 봐보기 */
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
