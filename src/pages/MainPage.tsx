@@ -33,10 +33,7 @@ export default function MainPage() {
 			completed: false,
 			completedDate: null,
 		}));
-		setTodoList((prev) => {
-			console.log(...prev);
-			return [...newTodoList];
-		});
+		setTodoList([...newTodoList]);
 	};
 
 	const completeTodoItem = (index: number) => {
