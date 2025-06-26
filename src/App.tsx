@@ -4,7 +4,7 @@ function App() {
 	return (
 		<div>
 			<MainPage />
-			병합테스트
+			pull origin main
 		</div>
 	);
 }
