@@ -4,7 +4,7 @@ function App() {
 	return (
 		<div>
 			<MainPage />
-			강제푸시
+			병합테스트
 		</div>
 	);
 }
