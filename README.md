@@ -6,5 +6,4 @@
 
 - [벨로그](https://velog.io/@gaebaribari/series/typescript)
 
-
 git pull origin main 재테스트
