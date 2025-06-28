@@ -5,5 +5,3 @@
 ## 관련 사이트
 
 - [벨로그](https://velog.io/@gaebaribari/series/typescript)
-
-rebase 순서바꿔서 
