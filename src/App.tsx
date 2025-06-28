@@ -4,7 +4,7 @@ function App() {
 	return (
 		<div>
 			<MainPage />
-			pull origin main
+			pull origin main 재테스트
 		</div>
 	);
 }
