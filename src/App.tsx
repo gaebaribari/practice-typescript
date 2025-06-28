@@ -4,7 +4,7 @@ function App() {
 	return (
 		<div>
 			<MainPage />
-			rebase
+			rebase 순서바꿔서
 		</div>
 	);
 }
