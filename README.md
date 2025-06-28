@@ -7,4 +7,4 @@
 - [벨로그](https://velog.io/@gaebaribari/series/typescript)
 
 
-merge 테스트
+git pull origin main
