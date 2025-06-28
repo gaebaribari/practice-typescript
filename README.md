@@ -6,4 +6,4 @@
 
 - [벨로그](https://velog.io/@gaebaribari/series/typescript)
 
-rebase
+rebase 순서바꿔서 
