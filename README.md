@@ -6,4 +6,4 @@
 
 - [벨로그](https://velog.io/@gaebaribari/series/typescript)
 
-git pull origin main 재재재테스트
+rebase
