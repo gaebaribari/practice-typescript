@@ -4,6 +4,7 @@ function App() {
 	return (
 		<div>
 			<MainPage />
+			dnldos
 		</div>
 	);
 }
